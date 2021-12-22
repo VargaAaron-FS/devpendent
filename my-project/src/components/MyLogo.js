@@ -3,7 +3,7 @@ import styled from "styled-components";
 export default function MyLogo() {
   return (
     <LogoContainer>
-      <H1>Dev<span style={{ fontStyle: "normal" }}>pendent</span><span style={{ color: "orangered", fontStyle: "normal", fontFamily: "Fira Code, monospace" }}>()</span></H1>
+      <H1>Dev<span style={{ fontStyle: "normal" }}>pendent</span><span style={{ color: "orangered", fontStyle: "normal", fontFamily: "Fira Code, monospace", letterSpacing: "-.25rem" }}>()</span></H1>
     </LogoContainer>
   );
 }

@@ -20,4 +20,6 @@ const Header = styled.header`
   padding: .5rem 2rem;
   background: #eee;
   border-bottom: 2px solid orangered;
+  z-index: 1;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .25);
 `;

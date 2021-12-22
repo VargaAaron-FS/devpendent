@@ -4,18 +4,27 @@ import styled from "styled-components";
 import MyHeader from "./components/MyHeader";
 import Blog from "./pages/Blog";
 import Resources from "./pages/Resources";
+import MyFooter from "./components/MyFooter";
 
 export default function App() {
   return (
     <AppContainer>
       <MyHeader />
-      <Blog />
-      <Resources />
+      <Main>
+        <Blog />
+        <Resources />
+      </Main>
+      <MyFooter />
     </AppContainer>
   );
 }
 
 const AppContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+const Main = styled.main`
   display: flex;
   flex-direction: column;
 `;
