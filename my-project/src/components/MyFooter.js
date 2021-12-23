@@ -1,16 +1,20 @@
 import styled from "styled-components";
 import { FaRegCopyright } from 'react-icons/fa';
 
+import MyFooterNav from "../components/MyFooterNav";
+
 export default function MyFooter() {
   return (
     <FooterContainer>
       <FooterPar><FaRegCopyright style={{ marginRight: ".25rem" }} /> Copyright 2021 Devpendent. All rights reserved.</FooterPar>
+      <MyFooterNav />
     </FooterContainer>
   );
 }
 
 const FooterContainer = styled.footer`
   display: flex;
+  justify-content: space-between;
   padding: 1rem 2rem;
   background: #333;
   border-top: 2px solid orangered;

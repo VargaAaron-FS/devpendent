@@ -51,3 +51,7 @@ const BlogSection = styled.section`
     grid-template-columns: 1fr;
   }
 `;
+
+const H2 = styled.h2`
+  color: #eee;
+`;

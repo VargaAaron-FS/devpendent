@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 // Components
 import MyHeader from "./components/MyHeader";
-import Blog from "./pages/Blog";
-import Resources from "./pages/Resources";
+import Blog from "./sections/Blog";
+import Resources from "./sections/Resources";
 import MyFooter from "./components/MyFooter";
 
 export default function App() {
