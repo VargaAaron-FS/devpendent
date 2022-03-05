@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 import PostCard from "../components/PostCard";
+import BlogButton from "../components/buttons/BlogButton";
 
 import PostImage from "../images/computer-on-chair.jpg";
 
@@ -31,6 +32,7 @@ export default function Blog() {
         postImgUrl={PostImage}
         postImgAlt="Post Alt Image Description"
       />
+      <BlogButton buttonTitle="View All Posts" />
     </BlogSection>
   );
 }
@@ -50,8 +52,4 @@ const BlogSection = styled.section`
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
-`;
-
-const H2 = styled.h2`
-  color: #eee;
 `;
