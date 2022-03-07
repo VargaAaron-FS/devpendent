@@ -3,25 +3,26 @@ import { FaGithub, FaTwitter } from 'react-icons/fa';
 
 export default function MyFooterNav() {
   return (
-    <HeaderNav>
+    <FooterNav>
       {/* <Anchor href="/">Blog<span style={{ color: "orangered", fontFamily: "Fira Code, monospace" }}>;</span></Anchor>
       <Anchor href="/">Resources<span style={{ color: "orangered", fontFamily: "Fira Code, monospace" }}>;</span></Anchor> */}
       {/* Maybe add a subscribe button here too */}
       {/* Just add network/social icons here and have this be a single page app with blog section and resource section underneath */}
       <Anchor href="/"><FaGithub /></Anchor>
       <Anchor href="/"><FaTwitter /></Anchor>
-    </HeaderNav>
+    </FooterNav>
   );
 }
 
-const HeaderNav = styled.nav`
+const FooterNav = styled.nav`
   display: flex;
   flex-direction: row;
   column-gap: 1rem;
+  justify-content: center;
 `;
 
 const Anchor = styled.a`
-  display: flex; 
+  display: flex;
   font-size: 1.5rem;
   margin: 0;
   text-decoration: none;
