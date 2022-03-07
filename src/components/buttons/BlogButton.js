@@ -17,13 +17,12 @@ const Button = styled.button`
   padding: 1rem 2rem;
   cursor: pointer;
   grid-column: 1 / span 4;
-  border: 2px solid #eee;
+  border: 2px solid #ff4500;
   border-radius: .25rem;
-  color: #333;
+  color: #eee;
+  background: #ff4500;
   &:hover {
-    background: #ff4500;
-    color: #eee;
-    border: 2px solid #ff4500;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .25);
   }
   @media (max-width: 1024px) {
     grid-column: 1 / span 2;
