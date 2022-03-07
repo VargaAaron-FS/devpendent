@@ -19,6 +19,7 @@ const Button = styled.button`
   grid-column: 1 / span 4;
   border: 2px solid #eee;
   border-radius: .25rem;
+  color: #333;
   &:hover {
     background: #ff4500;
     color: #eee;
