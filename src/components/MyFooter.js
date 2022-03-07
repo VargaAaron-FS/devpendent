@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { FaRegCopyright } from "react-icons/fa";
 
 import MyFooterNav from "../components/MyFooterNav";
 
