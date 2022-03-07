@@ -3,8 +3,16 @@ import styled from "styled-components";
 export default function DevResourceListCard() {
   return (
     <ListContainer>
-      <H2>Development</H2>
-      <ExcerptPar>List goes here.</ExcerptPar>
+      <H2>Web Development Resources</H2>
+      <List>
+        <ListItem>Item</ListItem>
+        <ListItem>Item</ListItem>
+        <ListItem>Item</ListItem>
+        <ListItem>Item</ListItem>
+        <ListItem>Item</ListItem>
+        <ListItem>Item</ListItem>
+        <ListItem>Item</ListItem>
+      </List>
     </ListContainer>
   );
 }
@@ -24,7 +32,15 @@ const H2 = styled.h2`
   font-size: 1.5rem;
 `;
 
-const ExcerptPar = styled.p`
+const List = styled.ul`
+  color: #eee;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+`;
+
+const ListItem = styled.li`
   color: #eee;
   margin: 0;
 `;
