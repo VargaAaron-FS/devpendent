@@ -8,7 +8,7 @@ export default function MyLogo() {
           Dev<span style={{ fontStyle: "normal" }}>pendent</span>
           <span
             style={{
-              color: "orangered",
+              color: "#ff4500",
               fontStyle: "normal",
               fontFamily: "Fira Code, monospace",
             }}
