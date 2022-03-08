@@ -4,12 +4,7 @@ import { FaGithub, FaTwitter } from 'react-icons/fa';
 export default function MyFooterNav() {
   return (
     <FooterNav>
-      {/* <Anchor href="/">Blog<span style={{ color: "orangered", fontFamily: "Fira Code, monospace" }}>;</span></Anchor>
-      <Anchor href="/">Resources<span style={{ color: "orangered", fontFamily: "Fira Code, monospace" }}>;</span></Anchor> */}
-      {/* Maybe add a subscribe button here too */}
-      {/* Just add network/social icons here and have this be a single page app with blog section and resource section underneath */}
-      <Anchor href="/"><FaGithub /></Anchor>
-      <Anchor href="/"><FaTwitter /></Anchor>
+      <Anchor href="https://github.com/VargaAaron-FS" target="_blank"><FaGithub /></Anchor>
     </FooterNav>
   );
 }
