@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 export default function MyHeaderNav() {
   return (
     <HeaderNav>
-      <Anchor href="https://github.com/VargaAaron-FS" target="_blank"></Anchor><FaGithub /></Anchor>
+      <Anchor href="https://github.com/VargaAaron-FS" target="_blank"><FaGithub /></Anchor>
     </HeaderNav>
   );
 }
